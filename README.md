@@ -2,7 +2,7 @@
 
 Este repositorio contiene un stack para **docker-compose** que pone en marcha Jupyter Lab, servido con SSL a través de Nginx.
 
-## Puesta en marcha
+## Puesta en marcha
 
 Para iniciar el proyecto es necesario hacer dos cosas:
 
