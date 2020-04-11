@@ -35,3 +35,11 @@ Para generar uno de estos certificados, utilícese el siguiente comando:
 ```
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ssl.key -out ssl.pem
 ```
+
+
+## Acceso al servicio
+
+Desde un navegador, introducir el URL ``https://servidor/``, reemplazando _servidor_ por la dirección IP o nombre de dominio del servidor donde se haya lanzado el stack.
+
+La primera vez, nos solicitará un token de acceso. Introduciremos aquí la clave que hayamos configurado en las variables de entorno.
+
