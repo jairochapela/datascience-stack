@@ -37,6 +37,24 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ssl.key -out ssl.pem
 ```
 
 
+### Lanzamiento del stack
+
+Desde la misma carpeta de este proyecto, lanzar el comando siguiente:
+
+```
+docker-composer up -d
+```
+
+
+### Interrupción del servicio
+
+Utilícese este otro comando:
+
+```
+docker-composer down
+```
+
+
 ## Acceso al servicio
 
 Desde un navegador, introducir el URL ``https://servidor/``, reemplazando _servidor_ por la dirección IP o nombre de dominio del servidor donde se haya lanzado el stack.
